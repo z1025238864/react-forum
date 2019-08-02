@@ -1,0 +1,96 @@
+h1{
+    margin-bottom:0;
+}
+.wrap{
+   max-width: 980px;
+   margin: auto;
+}
+#logo{
+    color: white;
+    text-align: center;
+}
+.headerDivider{
+    height: 45px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.T-menu{
+    float: left;
+    line-height: 64px;
+    background-color: transparent;
+    color: white;
+    border:none;
+}
+.T-menu a{
+    text-decoration: none;
+    color:#fff !important
+}
+.T-menu a:hover{
+    color: #1890ff !important;
+}
+.main .wrap{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+}
+#menuIndex li{
+    text-align: center;
+    margin-right: -1px;
+    border-right: 3px solid rgba(0,0,0,0)
+}
+#menuIndex li:hover,#menuIndex .ant-menu-item-selected {
+    background: #e6f7ff;
+    border-right-color: #1890ff;
+}
+#indexList{
+    border-left: 1PX solid #ccc;   
+}
+.ant-spin-container{
+    border-left: 1PX solid #ccc;   
+}
+.pic{
+    padding-top: 15px;
+}
+.pic >.ant-list-item-meta-avatar{
+    padding-left: 10px;
+}
+.ant-card-body img{
+    width: 300px;
+}
+.ant-list-item-meta-description img{
+    width: 100%;
+}
+.ant-list-item-meta-content{
+    width: 80%;
+}
+.listitem{
+    position: relative;
+   display: block;
+}
+.listitem .answer{
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+#list .ant-list-items{
+    padding:10px;
+}
+@media all and ( max-width:767px ){
+    #menuIndex{
+        display: flex;
+    }
+    .headerDivider{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #menuIndex li:hover,#menuIndex .ant-menu-item-selected {
+        background: #e6f7ff;
+        border-right-color:transparent;
+        border-bottom-color: #1890ff;
+        border-bottom:3px solid ;
+    }
+}
